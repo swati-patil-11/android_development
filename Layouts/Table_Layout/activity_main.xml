@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <!-- Header Row -->
+    <TableRow
+        android:background="#BBDEFB">
+
+        <TextView
+            android:text="Roll No"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="Name"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="Sub 1"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="Sub 2"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <!-- Student 1 -->
+    <TableRow>
+
+        <TextView
+            android:text="1"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Swati"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="85"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="90"
+            android:padding="8dp"/>
+
+    </TableRow>
+
+    <!-- Student 2 -->
+    <TableRow>
+
+        <TextView
+            android:text="2"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Rahul"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="78"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="88"
+            android:padding="8dp"/>
+
+    </TableRow>
+
+    <!-- Student 3 -->
+    <TableRow>
+
+        <TextView
+            android:text="3"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="Priya"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="92"
+            android:padding="8dp"/>
+
+        <TextView
+            android:text="89"
+            android:padding="8dp"/>
+
+    </TableRow>
+
+</TableLayout>
