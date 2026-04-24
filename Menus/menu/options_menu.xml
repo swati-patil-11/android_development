@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/context_enable" android:title="Enable"/>
+    <item android:id="@+id/context_disable" android:title="Disable"/>
+</menu>
